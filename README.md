@@ -15,13 +15,15 @@
 
    
 Instale as dependências:
-Copiar código
+npm install
 
-Como Executar os Testes
+
+
 Para executar os testes web:
 npx cypress open
 
+
+
 Para executar os testes API:
 npx cypress run --spec "cypress/e2e/api/api.feature"
-
 
